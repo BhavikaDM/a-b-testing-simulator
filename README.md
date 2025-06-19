@@ -1,4 +1,4 @@
-## A/B Testing Simulator
+# A/B Testing Simulator
 
 An interactive web application for conducting and comparing statistical A/B tests, powered by Streamlit, Python, and LLM-based column recommendations.
 
@@ -24,18 +24,26 @@ An interactive web application for conducting and comparing statistical A/B test
 - Feature A/B experiments
 - Sales strategy comparison
 
-⚙️ Installation
----
+### ⚙️ Installation
+ Clone the repository
 
-# Clone the repository
+```bash
 git clone https://github.com/yourusername/ab-testing-app.git
 cd ab-testing-app
 
-# (Optional) Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
-# Install dependencies
-pip install -r requirements.txt
+### 🔑 Environment Variables
 
----
+Create a .env file in the root with your OpenAI API key:
+```bash
+OPENAI_API_KEY=your-openai-api-key
+```
+
+### ▶️ Run the App
+
+Start the Streamlit app:
+```bash
+streamlit run app.py
+```
+Then open your browser and navigate to: http://localhost:8501
