@@ -23,3 +23,19 @@ An interactive web application for conducting and comparing statistical A/B test
 - UX variant testing
 - Feature A/B experiments
 - Sales strategy comparison
+
+⚙️ Installation
+---
+
+# Clone the repository
+git clone https://github.com/yourusername/ab-testing-app.git
+cd ab-testing-app
+
+# (Optional) Create virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+---
