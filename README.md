@@ -20,7 +20,7 @@ An interactive web application for conducting and comparing statistical A/B test
         📄 PDF summary report
 
 🧠 Use Cases
-    ---Marketing campaign performance
+    -Marketing campaign performance
     -UX variant testing
     -Feature A/B experiments
     -Sales strategy comparison
